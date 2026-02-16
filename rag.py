@@ -123,7 +123,7 @@ Question:
 """
 
     response = client.chat.completions.create(
-        model="openai/gpt-oss-120b",   # Fast + free tier
+        model="openai/gpt-oss-20b",   # Fast + free tier
         messages=[{"role": "user", "content": prompt}],
         temperature=0.2,
     )
