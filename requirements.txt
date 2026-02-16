@@ -5,3 +5,4 @@ langchain-community
 sentence-transformers 
 streamlit 
 groq
+rank_bm25
