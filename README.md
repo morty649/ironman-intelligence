@@ -83,13 +83,16 @@ Shows response latency
 Maintains recent query history
 
 **Tech Stack** 
-Component	Technology
-UI	Streamlit
-Dense Vector DB	DataStax AstraDB
-Embeddings	sentence-transformers/all-mpnet-base-v2
-Sparse Retrieval	BM25 (LangChain)
-LLM	Groq (openai/gpt-oss-120b)
-Language	Python 3.9
+| Component        | Technology                              |
+| ---------------- | --------------------------------------- |
+| UI               | Streamlit                               |
+| Dense Vector DB  | DataStax AstraDB                        |
+| Embeddings       | sentence-transformers/all-mpnet-base-v2 |
+| Sparse Retrieval | BM25 (LangChain)                        |
+| LLM              | Groq (openai/gpt-oss-120b)              |
+| Language         | Python 3.9                              |
+
+
 📁 Project Structure
 ironman-intelligence/
 │
