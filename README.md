@@ -98,24 +98,26 @@ ironman-intelligence/
 │
 ├── streamlit_app.py     # Frontend UI
 ├── rag.py               # Retrieval + Generation logic
-├── ingestion.py         # Document ingestion 
+├── ingestion.py         # Document ingestion (if applicable)
+├── corpus.pkl           # Persisted screenplay corpus (for BM25)
 ├── requirements.txt
 └── README.md
+
 
 ⚙️ Setup Instructions
 1*Clone the Repository*
 
-  git clone https://github.com/morty649/ironman-intelligence.git
-  cd ironman-intelligence
+     git clone https://github.com/morty649/ironman-intelligence.git
+     cd ironman-intelligence
 
 2. *Install Dependencies*
 
-  pip install -r requirements.txt
+        pip install -r requirements.txt
 
 
 If needed:
 
-  pip install astrapy streamlit langchain groq sentence-transformers
+      pip install astrapy streamlit langchain groq sentence-transformers
 
 3️. *Configure Environment Variables*
 
@@ -127,7 +129,7 @@ GROQ_API_KEY=your_groq_key
 
 4. *Run the Application*
   
-  streamlit run streamlit_app.py
+        streamlit run streamlit_app.py
 
 **Some Example Questions**
 
