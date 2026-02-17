@@ -33,7 +33,6 @@ Context grounding
 Retrieval transparency
 
 **Architecture**
-
 User Query
    ↓
 Hybrid Retriever
@@ -48,7 +47,6 @@ LLM (Groq)
 Grounded Answer
    ↓
 Streamlit UI
-
 
 **Key Features**
 
